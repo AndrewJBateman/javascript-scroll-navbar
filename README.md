@@ -1,11 +1,10 @@
-# Javascript Scroll Navbar
+# :zap: Javascript Scroll Navbar
 
-Wes Bos Youtube Tutorial: [Vanilla JavaScript Sticky Nav - #JavaScript30 24/30](https://www.youtube.com/watch?v=5FLOBCGH3_U&list=PLu8EoSxDXHP6CGK4YVJhL_VWetA865GOH&index=24).
-
+* Wes Bos Youtube Tutorial: [Vanilla JavaScript Sticky Nav - #JavaScript30 24/30](https://www.youtube.com/watch?v=5FLOBCGH3_U&list=PLu8EoSxDXHP6CGK4YVJhL_VWetA865GOH&index=24).
 
 *** Note: to open web links in a new window use: _ctrl+click on link_**
 
-## Table of contents
+## :page_facing_up: Table of contents
 
 * [General info](#general-info)
 * [Screenshots](#screenshots)
@@ -16,23 +15,23 @@ Wes Bos Youtube Tutorial: [Vanilla JavaScript Sticky Nav - #JavaScript30 24/30](
 * [Inspiration](#inspiration)
 * [Contact](#contact)
 
-## General info
+## :books: General info
 
 * Tutorial Code to add a class to change the nav bar when the user scrolls up. Also changes the width of the text div.
 
-## Screenshots
+## :camera: Screenshots
 
 ![Example screenshot](./img/nav.png).
 
-## Technologies
+## :signal_strength: Technologies
 
 * [Javascript v1.9 ECMA-262 ECMAScript 2018](http://www.ecma-international.org/publications/standards/Ecma-262.htm)
 
-## Setup
+## :floppy_disk: Setup
 
 * Open index.html in browser. If any code is changed the browser needs to be refreshed.
 
-## Code Examples
+## :computer: Code Examples
 
 * compares scroll position with top of Navigation and adds the 'fixed-nav' class when they are equal.
 
@@ -50,20 +49,19 @@ fixNav = () => {
 }
 ```
 
-## Features
+## :cool: Features
 
 *  At about scrollY = 337px the css class change occurs to 'fixed-nav'.
 
-## Status & To-Do List
+## :clipboard: Status & To-Do List
 
 * Status: Working.
+* To-Do: nothing
 
-* To-Do: N/A
-
-## Inspiration
+## :clap: Inspiration
 
 * Wes Bos Youtube Tutorial: [Vanilla JavaScript Sticky Nav - #JavaScript30 24/30](https://www.youtube.com/watch?v=5FLOBCGH3_U&list=PLu8EoSxDXHP6CGK4YVJhL_VWetA865GOH&index=24)
 
-## Contact
+## :envelope: Contact
 
-Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
+* Repo created by [ABateman](https://www.andrewbateman.org) * you are welcome to [send me a message](https://andrewbateman.org/contact)
