@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   background: #eeeeee;
-  font-family: 'helvetica neue';
+  font-family: "helvetica neue";
   font-size: 20px;
   font-weight: 200;
 }
@@ -10,7 +10,10 @@ body {
   margin: 0;
 }
 
-*, *:before, *:after { /*psuedo elements*/
+*,
+*:before,
+*:after {
+  /*psuedo elements*/
   box-sizing: inherit;
 }
 
@@ -26,7 +29,9 @@ body {
 }
 
 .fixed-nav .site-wrap {
-  transform: scale(1); /* main text gets a little wider as the 'fixed-nav bar appears */
+  transform: scale(
+    1
+  ); /* main text gets a little wider as the 'fixed-nav bar appears */
 }
 
 header {
@@ -43,7 +48,7 @@ header {
 h1 {
   color: white;
   font-size: 7vw;
-  text-shadow: 3px 4px 0 rgba(0,0,0,0.2);
+  text-shadow: 3px 4px 0 rgba(0, 0, 0, 0.2);
 }
 
 nav {
@@ -57,12 +62,12 @@ nav {
 
 body.fixed-nav nav {
   position: fixed;
-  box-shadow: 0 5px rgba(0,0,0,0.1);
+  box-shadow: 0 5px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
   margin: 0;
-  padding:0;
+  padding: 0;
   list-style: none;
   display: flex;
 }
